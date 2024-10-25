@@ -31,6 +31,25 @@
 
   <title>word_shuffle</title>
   <link rel="manifest" href="manifest.json">
+
+  <script defer src="/__/firebase/8.6.1/firebase-app.js"></script>
+  <script defer src="/__/firebase/8.6.1/firebase-firestore.js"></script>
+  <script defer src="/__/firebase/8.6.1/firebase-analytics.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyCP4WOsF9AVNNfCcZNpkdOcZSkNSTLscqs",
+      authDomain: "word-shuffle-67b4a.firebaseapp.com",
+      projectId: "word-shuffle-67b4a",
+      storageBucket: "word-shuffle-67b4a.appspot.com",
+      messagingSenderId: "1045308890627",
+      appId: "1:1045308890627:web:f3ae5638f20b401cb3b836",
+      measurementId: "YOUR_MEASUREMENT_ID"
+    };
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>  
+  <script defer src="/__/firebase/init.js"></script>
+
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
